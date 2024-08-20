@@ -20,7 +20,7 @@
                 },
                 "minecraft:custom_data": {
                   "tacb": {
-                    "tag":["battle_area_marker"]
+                    "tags":["battle_area_marker"]
                   }
                 }
               }

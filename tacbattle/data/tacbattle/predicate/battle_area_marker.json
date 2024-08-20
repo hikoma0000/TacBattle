@@ -5,6 +5,11 @@
       "slots": {
         "weapon.*": {
           "predicates": {
+            "minecraft:custom_data": {
+              "tacb": {
+                "tags": ["battle_area_marker"]
+              }
+            },
             "minecraft:enchantments": [
               {
                 "enchantments": "tacbattle:battle_area_marker"
