@@ -1,0 +1,1 @@
+$data modify storage entity_link:_ __temp__.linked_uuid set from storage entity_link:_ id."$(id)"

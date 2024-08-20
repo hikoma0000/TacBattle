@@ -1,0 +1,1 @@
+$data modify storage tacb:var battle_area.current_phase set value '{"translate":"$(phase_name)", "fallback":"$(fallback)"}'

@@ -1,0 +1,1 @@
+$data modify storage 2entity_link: output set from storage 2entity_link:_ link."$(UUID1)"

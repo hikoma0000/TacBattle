@@ -1,0 +1,2 @@
+$execute if data storage pte_link: {input:{id:"*"}} run data modify storage pte_link: output set from storage pte_link:_ data.$(player_uuid)
+$execute unless data storage pte_link: {input:{id:"*"}} run data modify storage pte_link: output set from storage pte_link:_ data.$(player_uuid).$(id)

@@ -1,0 +1,1 @@
+$data modify storage pte_link:_ data.$(player_uuid).$(id) set value "$(entity_uuid)"

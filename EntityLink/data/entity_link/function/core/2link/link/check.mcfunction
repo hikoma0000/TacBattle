@@ -1,0 +1,1 @@
+$execute unless data storage 2entity_link: link."$(UUID1)" unless data storage 2entity_link: link."$(UUID2)" run function entity_link:core/2link/link/macro with storage 2entity_link:

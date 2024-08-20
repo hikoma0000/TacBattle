@@ -1,0 +1,1 @@
+$execute if data storage pte_link:_ data."$(conved_player_uuid)".area_selector.selecting_area_root run function area_selector:core/area/store_score with storage pte_link:_ data."$(conved_player_uuid)".area_selector

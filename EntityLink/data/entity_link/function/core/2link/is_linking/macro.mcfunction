@@ -1,0 +1,1 @@
+$return run execute if data storage 2entity_link:_ link."$(UUID1)"

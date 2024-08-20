@@ -1,0 +1,2 @@
+$data modify storage entity_link:_ id."$(id)" set from storage entity_link:_ __temp__.linking_uuid
+$execute unless data storage entity_link:_ __temp__.linking_uuid[] run data remove storage entity_link:_ id."$(id)"

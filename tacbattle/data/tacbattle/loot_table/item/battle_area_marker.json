@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 1,
+                "minecraft:food": {
+                  "nutrition":0,
+                  "saturation":0,
+                  "can_always_eat":true,
+                  "eat_seconds":2147483647
+                },
+                "minecraft:custom_data": {
+                  "tacb": {
+                    "tag":["battle_area_marker"]
+                  }
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "tacbattle:battle_area_marker": 1
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
