@@ -1,1 +1,6 @@
 *.zip
+enchantments_test/*
+old_EntityLink/*
+HelperBossbar/*
+SuperArmor/*
+.gitignore
