@@ -1,0 +1,1 @@
+$execute as $(conved_player_uuid) if entity @s[tag=!area_selector.stop]
