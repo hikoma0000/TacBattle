@@ -1,1 +1,0 @@
-# execute if items entity @s hotbar.0 stick[minecraft:custom_data={"tacb":{"tags":["battle_area_marker"]}}] run item 

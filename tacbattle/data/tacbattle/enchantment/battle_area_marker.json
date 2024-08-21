@@ -23,15 +23,5 @@
 	"anvil_cost": 0,
 	"slots": [
 		"hand"
-	],
-	"effects": {
-		"minecraft:tick": [
-			{
-				"effect": {
-					"type": "minecraft:run_function",
-					"function": "tacbattle:core/battle_area/area_marker/name_set"
-				}
-			}
-		]
-	}
+	]
 }
