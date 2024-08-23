@@ -3,5 +3,8 @@
 # @api
 
 
-# player_uuidを変換
+# @sのUUIDをstringにする
 function helperbar:core/uuid_convert
+
+# player_uuidのvisibleをtrue
+function helperbar:core/bossbar/visible/show with storage helperbar:_ macro

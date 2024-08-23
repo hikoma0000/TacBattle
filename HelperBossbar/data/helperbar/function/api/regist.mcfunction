@@ -9,7 +9,7 @@ data modify storage helperbar:_ macro merge from storage helperbar: input
 #入力が正しいかチェックし正しくない場合修正する
 function helperbar:core/bossbar/regist/input_check
 
-# helpbar: input.player_uuidに入力されたint_arrayをstringにする
+# @sのUUIDをstringにする
 function helperbar:core/uuid_convert
 
 # macro
