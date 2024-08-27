@@ -30,7 +30,7 @@
 							"entity": "this",
 							"target": "item_name",
 							"name": {
-								"translate": "tacbattle.item.area_marker.name",
+								"translate": "tacbattle.item.area_marker",
 								"fallback": "Battle Area Marker"
 							}
 						},

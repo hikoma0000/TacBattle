@@ -11,4 +11,4 @@ data modify storage helperbar:_ macro merge from storage helperbar: input
 function helperbar:core/uuid_convert
 
 # macro
-function helperbar:core/bossbar/phase/set with storage helperbar:_ macro
+function helperbar:core/bossbar/phase/set/ with storage helperbar:_ macro

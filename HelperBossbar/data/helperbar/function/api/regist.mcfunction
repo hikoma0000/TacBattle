@@ -12,6 +12,9 @@ function helperbar:core/bossbar/regist/input_check
 # @sのUUIDをstringにする
 function helperbar:core/uuid_convert
 
+# traslate[List]の長さをtotal_phaseにする
+execute store result storage helperbar:_ macro.total_phase int 1 run data get storage helperbar:_ macro.phase_name_translate
+
 # macro
 function helperbar:core/bossbar/regist/macro with storage helperbar:_ macro
 
