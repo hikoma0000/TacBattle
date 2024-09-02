@@ -3,8 +3,6 @@
 #@api
 
 
-# data modify storage entity_link:_ id set value {}
-# data modify storage entity_link:_ UUID set value {}
 data remove storage entity_link:_ id
 data remove storage entity_link:_ UUID
 data remove storage entity_link:_ regist_UUID

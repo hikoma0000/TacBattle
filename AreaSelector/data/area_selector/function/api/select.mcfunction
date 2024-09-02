@@ -13,5 +13,5 @@ function area_selector:core/select/macro with storage area_selector:_ var
 function area_selector:core/area/check with storage area_selector:_ var
 
 
-# data remove storage area_selector:_ var
+data remove storage area_selector:_ var
 data remove storage area_selector:_ temp

@@ -24,5 +24,3 @@ scoreboard players set #-1 area_selector.const -1
 scoreboard players set #/2 area_selector.const 2
 scoreboard players set #/-2 area_selector.const -2
 scoreboard players set #5000 area_selector.const 5000
-
-#minecraft:item_display ~ ~ ~ {item:{id:"minecraft:red_stained_glass",components:{custom_model_data:1}},teleport_duration:1,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[1.03f,1.03f,1.03f],translation:[0.5f,-500f,0.5f]},Tags:["select_block"],brightness:{sky:15,block:15}}
