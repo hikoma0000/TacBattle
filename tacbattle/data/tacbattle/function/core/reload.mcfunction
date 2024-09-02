@@ -3,7 +3,7 @@
 # 
 
 
-execute unless data storage tacb: {__init__:1b} run function tacbattle:api/reinstall
+execute unless data storage tacb:_ {__init__:1b} run function tacbattle:api/reinstall
 
 scoreboard objectives add tacb.sys dummy
 scoreboard objectives add tacb.const dummy

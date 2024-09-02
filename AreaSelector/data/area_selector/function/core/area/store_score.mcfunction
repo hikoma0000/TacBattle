@@ -26,6 +26,6 @@ scoreboard players add $x area_selector 10
 scoreboard players add $y area_selector 10
 scoreboard players add $z area_selector 10
 
-$execute as $(selecting_area_root) at $(start_position) run tp @s ~ ~ ~
+# $execute as $(selecting_area_root) at $(start_position) run tp @s ~ ~ ~
 
 $execute as $(selecting_area_root) on passengers on passengers run function area_selector:core/area/modify
