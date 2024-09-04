@@ -19,4 +19,4 @@ data remove storage tacb:_ temp
 
 data modify storage tacb:_ __init__ set value 1b
 
-say reinstall
+say tacbattle reinstall

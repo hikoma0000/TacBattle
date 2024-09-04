@@ -1,0 +1,31 @@
+{
+	"description": {
+		"translate": "super_armor.description",
+		"fallback": "Super Armor"
+	},
+	"supported_items": [
+		"minecraft:spyglass",
+		"minecraft:wind_charge"
+	],
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"hand"
+	],
+	"effects": {
+		"minecraft:damage_immunity": [
+			{
+				"effect": {}
+			}
+		]
+	}
+}

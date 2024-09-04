@@ -40,3 +40,5 @@ scoreboard objectives remove entity_link
 scoreboard objectives add entity_link dummy
 
 data modify storage entity_link:_ __init__ set value 1b
+
+say entity link reinstall
