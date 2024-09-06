@@ -4,12 +4,18 @@
 
 
 $bossbar set helperbar:$(converted_uuid) value $(current_phase)
-$data modify storage helperbar:_ data.$(converted_uuid)._phase_name set from helperbar:_ data.$(converted_uuid).phase_name
-data modify storage helperbar:_ temp.phase_set_loop.list set value []
+$data modify storage helperbar:_ data.$(converted_uuid)._phase_name set from storage helperbar:_ data.$(converted_uuid).phase_name
+
+
+$data modify storage helperbar:_ temp.phase_name_loop set from storage helperbar:_ data.$(converted_uuid)._phase_name
+$scoreboard players set $current_phase helperbar $(current_phase)
+scoreboard players set $phase_loop helperbar 0
 function helperbar:core/bossbar/phase/set/loop with storage helperbar:_ macro
-data remove storage helperbar:_ temp.phase_set_loop
+$data modify storage helperbar:_ data.$(converted_uuid)._phase_name set from storage helperbar:_ temp.phase_name_loop
 
-$data modify storage helperbar:_ temp set from helperbar:_ data.$(converted_uuid).phase_name
 
+$data modify storage helperbar:_ temp set from storage helperbar:_ data.$(converted_uuid)._phase_name
 $data modify storage helperbar:_ temp.converted_uuid set value $(converted_uuid)
-function helperbar:core/bossbar/phase/name/main with storage helperbar:_ temp
+$data modify storage helperbar:_ temp.total_phase set from storage helperbar:_ data.$(converted_uuid).total_phase
+
+function helperbar:core/bossbar/phase/name/set with storage helperbar:_ temp

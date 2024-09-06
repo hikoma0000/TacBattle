@@ -7,4 +7,4 @@
 function helperbar:core/uuid_convert
 
 # macro
-function helperbar:core/bossbar/phase/prev/ with storage helperbar:_ macro
+function helperbar:core/bossbar/phase/modify/prev/check with storage helperbar:_ macro
