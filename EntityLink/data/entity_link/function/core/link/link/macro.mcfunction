@@ -7,5 +7,5 @@ $execute unless data storage entity_link:_ {id:{"$(id)":[$(UUID)]}} run data mod
 # function entity_link:core/link/illegal_word_check with storage entity_link:_
 $tag @s add entity_link.id.$(id)
 
-$execute unless data storage entity_link:_ {regist_UUID:[$(UUID)]} run data modify storage entity_link:_ regist_UUID append value $(UUID)
+$execute unless data storage entity_link:_ {register_UUID:[$(UUID)]} run data modify storage entity_link:_ register_UUID append value $(UUID)
 # $execute if data storage entity_link: {input:{auto_tag:1b}} run tag @s add entity_link.UUID.$(UUID)

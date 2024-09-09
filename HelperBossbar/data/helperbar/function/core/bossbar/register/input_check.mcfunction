@@ -1,6 +1,6 @@
-#> helperbar:core/bossbar/regist/input_check
+#> helperbar:core/bossbar/register/input_check
 #
-# @within helperbar:core/bossbar/regist/main
+# @within helperbar:core/bossbar/register/main
 
 
 execute unless data storage helperbar:_ macro.current_phase run data modify storage helperbar:_ macro.currtent_phase set value 1

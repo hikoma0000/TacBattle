@@ -1,1 +1,1 @@
-$execute if data storage entity_link:_ {UUID:{"$(redist_uuid)":[]}} run data remove storage entity_link:_ UUID."$(regist_uuid)"
+$execute if data storage entity_link:_ {UUID:{"$(redist_uuid)":[]}} run data remove storage entity_link:_ UUID."$(register_uuid)"

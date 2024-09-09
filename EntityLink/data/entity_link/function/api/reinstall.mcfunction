@@ -5,10 +5,10 @@
 
 data remove storage entity_link:_ id
 data remove storage entity_link:_ UUID
-data remove storage entity_link:_ regist_UUID
+data remove storage entity_link:_ register_UUID
 data remove storage entity_link:_ __temp__
 data remove storage entity_link:_ __init__
-data merge storage entity_link:_ {id:{}, UUID:{}, regist_UUID:[]}
+data merge storage entity_link:_ {id:{}, UUID:{}, register_UUID:[]}
 # var:{legal_word:["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","0","1","2","3","4","5","6","7","8","9","-","+",".","_"]}
 
 data remove storage entity_link: input

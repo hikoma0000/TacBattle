@@ -1,6 +1,6 @@
-#> helperbar:core/bossbar/regist/macro
+#> helperbar:core/bossbar/register/macro
 #
-# @within helperbar:core/bossbar/regist/main
+# @within helperbar:core/bossbar/register/main
 
 
 $data modify storage helperbar:_ data.$(converted_uuid).phase_name.translate set from storage helperbar:_ macro.phase_name.translate
@@ -24,4 +24,4 @@ data modify storage helperbar:_ name_macro.total_phase set from storage helperba
 function helperbar:core/bossbar/phase/name/set with storage helperbar:_ name_macro
 data remove storage helperbar:_ name_macro
 
-$tag $(converted_uuid) add helperbar.registed
+$tag $(converted_uuid) add helperbar.registered

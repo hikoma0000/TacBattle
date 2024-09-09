@@ -1,1 +1,1 @@
-$bossbar set area_selector:$(converted_uuid) visible true
+$bossbar set helperbar:$(converted_uuid) visible true
