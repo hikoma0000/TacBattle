@@ -1,6 +1,6 @@
-#> helperbar:core/bossbar/phase/set/over_check/under_zero
+#> helperbar:core/bossbar/phase/util/over_check/under_zero
 #
-# @within helperbar:core/bossbar/phase/set/over_check/
+# @within helperbar:core/bossbar/phase/util/over_check/
 
 
 scoreboard players add $current_phase helperbar 1

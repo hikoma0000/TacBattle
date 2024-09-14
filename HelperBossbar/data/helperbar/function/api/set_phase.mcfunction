@@ -11,7 +11,7 @@ data modify storage helperbar:_ macro merge from storage helperbar: input
 function helperbar:core/uuid_convert
 
 # total_phaseよりcurrent_phaseが大きくないか、0より大きいかチェックし大きい場合total_phaseと同じ値にする
-function helperbar:core/bossbar/phase/set/over_check/ with storage helperbar:_ macro
+function helperbar:core/bossbar/phase/util/over_check/ with storage helperbar:_ macro
 
 # macro
 function helperbar:core/bossbar/phase/set/ with storage helperbar:_ macro

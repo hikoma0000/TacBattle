@@ -15,13 +15,8 @@ $execute as $(converted_uuid) run bossbar set helperbar:$(converted_uuid) player
 $bossbar set helperbar:$(converted_uuid) max $(total_phase)
 $bossbar set helperbar:$(converted_uuid) value $(current_phase)
 $bossbar set helperbar:$(converted_uuid) style progress
-$bossbar set helperbar:$(converted_uuid) visible false
+$bossbar set helperbar:$(converted_uuid) visible true
 
-data modify storage helperbar:_ name_macro.translate set from storage helperbar:_ macro.phase_name.translate
-data modify storage helperbar:_ name_macro.fallback set from storage helperbar:_ macro.phase_name.fallback
-data modify storage helperbar:_ name_macro.converted_uuid set from storage helperbar:_ macro.converted_uuid
-data modify storage helperbar:_ name_macro.total_phase set from storage helperbar:_ macro.total_phase
-function helperbar:core/bossbar/phase/name/set with storage helperbar:_ name_macro
-data remove storage helperbar:_ name_macro
+function helperbar:core/bossbar/phase/util/shift/set with storage helperbar:_ macro
 
 $tag $(converted_uuid) add helperbar.registered

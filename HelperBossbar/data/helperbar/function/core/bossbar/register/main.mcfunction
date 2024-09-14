@@ -15,6 +15,12 @@ function helperbar:core/uuid_convert
 # traslate[List]の長さをtotal_phaseにする
 execute store result storage helperbar:_ macro.total_phase int 1 run data get storage helperbar:_ macro.phase_name.translate
 
+# total_phaseを先に更新
+function helperbar:core/bossbar/update/total_phase with storage helperbar:_ macro
+
+# total_phaseよりcurrent_phaseが大きくないか、0より大きいかチェックし大きい場合total_phaseと同じ値にする
+function helperbar:core/bossbar/phase/util/over_check/ with storage helperbar:_ macro
+
 # macro
 function helperbar:core/bossbar/register/macro with storage helperbar:_ macro
 
