@@ -8,6 +8,7 @@ data modify storage area_selector: output set value {}
 
 data remove storage area_selector:_ var
 data remove storage area_selector:_ temp
+data remove storage area_selector:_ data
 
 scoreboard objectives remove area_selector
 scoreboard objectives add area_selector dummy

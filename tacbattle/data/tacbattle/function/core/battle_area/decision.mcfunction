@@ -6,5 +6,7 @@ playsound minecraft:block.anvil.place player @s ~ ~ ~ 1 1.5
 
 function area_selector:api/get_pos
 
+function area_selector:api/decision
+
 execute if items entity @s weapon.mainhand stick[minecraft:custom_data={"tacb":{"tags":["battle_area_marker"]}}] run item replace entity @s weapon.mainhand with air
 execute if items entity @s weapon.offhand stick[minecraft:custom_data={"tacb":{"tags":["battle_area_marker"]}}] run item replace entity @s weapon.offhand with air
