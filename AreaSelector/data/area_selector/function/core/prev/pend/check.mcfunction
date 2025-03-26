@@ -1,1 +1,1 @@
-$return run execute as $(conved_player_uuid) if entity @s[tag=area_selector.selecting_area.pause]
+$return run execute as $(conved_player_uuid) if entity @s[tag=area_selector.selecting_area.suspend]

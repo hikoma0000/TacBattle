@@ -5,7 +5,7 @@ title @s actionbar {"translate":"tacbattle.ui.pending","fallback":"Pending...","
 data modify storage tacb:var battle_area.phase set value 3
 
 
-function area_selector:api/pause
+function area_selector:api/suspend
 
 tag @s remove battle_area_select_end
 tag @s add battle_area_select_pend

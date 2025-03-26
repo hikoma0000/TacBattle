@@ -1,1 +1,0 @@
-$tag $(conved_player_uuid) remove area_selector.selecting_area.pause

@@ -1,0 +1,1 @@
+execute as @e[tag=display_menu.parent] at @s facing ^ ^ ^-1 on passengers if entity @s[tag=display_menu.behind] run tp @s ~ ~ ~ ~ ~
